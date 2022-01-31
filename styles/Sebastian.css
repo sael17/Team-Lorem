@@ -1,0 +1,40 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(0.25turn, #00bbf9, #ffffff, #d00000);
+	min-height: 100vh;
+}
+
+
+p{
+  font-size: 1.5rem;
+}
+
+.profile-pic{
+  width:20%;
+}
+
+#intro h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 3.0rem;
+}
+
+#intro{
+  text-align: center;
+}
+
+.question-icon{
+  width:40%;
+}
+
+#questions{
+  padding: 7% 15%;
+}
+
+#questions .col-lg-4{
+  text-align: center;
+}
+
+#intro p{
+  margin-top: 2rem;
+}
+ 

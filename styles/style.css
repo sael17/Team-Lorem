@@ -1,0 +1,160 @@
+html,
+body {
+	margin: 0;
+	background-size:cover;
+	background: linear-gradient(0.25turn, #00bbf9, #ffffff, #d00000);
+	height: 100%;
+}
+
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+h1 {
+	color: #d90429;
+	text-transform: uppercase;
+	text-decoration: underline solid #000000;
+	text-underline-offset: 1rem;
+	padding: 3rem;
+	padding-bottom: 6rem;
+	margin-bottom: 1.5rem;
+	display: inline-block;
+	font-weight: 400;
+	font-family: 'Mochiy Pop P One', sans-serif;
+	background-image: linear-gradient(to right, #e71d36, #00bbf9);
+	-webkit-background-clip: text;
+	color: transparent;
+	letter-spacing: .2rem;
+	transition: all .2s;
+	align-self: center;
+	z-index:1
+}
+
+h1:hover {
+	transform: scale(1.3);
+}
+
+.about-us {
+	padding: 1rem;
+	padding-right: 2rem;
+	margin: 0 auto;
+	width: 70%;
+	z-index:1
+}
+
+.about-us__image {
+	position: fixed;
+	width: 0;
+	height: 0;
+	padding: 50vh 50vw;
+	background: url(/img/PR-flag.png) no-repeat;
+	background-size: cover;
+	z-index: 1;
+	opacity: .20;	
+}
+
+.text-box {
+	text-align: center;
+	margin: 0 auto;
+	height: 10vh;
+	width: 75%;
+	background-color: rgba(240, 236, 235, 0.6);
+	box-shadow: 0 3rem 6rem rgba(black, .1);
+	border-radius: 3px;
+	padding: 4rem;
+	padding-bottom: 3rem;
+	transform: skewX(-12deg);
+	z-index:1
+}
+
+.text-box__text {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	transform: skewX(12deg);
+	margin: auto;
+}
+
+.members-links {
+	width: 60%;
+	align-self: center;
+	margin-top: 10rem;
+	z-index:1
+}
+
+.member-pages {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.member-page {
+	list-style: none;
+}
+
+li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 1.5rem 4rem;
+	display: inline-block;
+	border-radius: 10rem;
+	transition: all .2s;
+	position: relative;
+	border: none;
+	cursor: pointer;
+	z-index:1
+	/* color: #001219; */
+}
+
+li a:focus {
+	outline: none;
+	animation: pulsate 1s infinite;
+}
+
+a:hover {
+	transform: scale(1.2);
+}
+
+#Brandon {
+	border: solid #d00000;
+	color: #ffffff;
+	background-color: #00bbf9;
+	z-index:1
+}
+
+#Sebastian {
+	border: solid #00bbf9;
+	color: #d00000;
+	background-color: #edede9;
+	z-index:1
+}
+
+#Yan {
+	border: solid #ffffff;
+	color: #00bbf9;
+	background-color: #d62828;
+	z-index:1
+}
+
+/* LINK https://www.w3schools.com/css/default.asp  */
+
+@keyframes pulsate {
+	0% {
+		transform: scale(1);
+		box-shadow: none;
+	}
+
+	50% {
+		transform: scale(1.05);
+		box-shadow: 0 1rem 4rem rgba(0, 0, 0, .25);
+	}
+
+	100% {
+		transform: scale(1);
+		box-shadow: none;
+	}
+}

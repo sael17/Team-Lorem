@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(180deg, rgba(177,216,255,1) 0%, rgba(0,103,172,1) 35%, rgba(0,87,159,1) 65%, rgba(177,216,255,1) 100%);  background-repeat: round;
+  height: 100vh;
+  padding: 10px;
+}
+
+p {
+  font-family: verdana;
+}
+
+.video-container {
+  border-radius: 15px;
+}
+
+.responsive-img {
+  border-radius: 15px;
+}
+
+.info {
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 0px 25px;
+  background-color: #4990fc;
+  box-shadow: 10px 10px 5px rgb(0,0,0,0.45);
+}
+
+.title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: 'Supermercado One', cursive;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  transition: all .3s;
+}
+
+.title:hover {
+  transform: scale(1.3);
+}
